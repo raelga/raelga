@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-label="Rael Garcia, Site Reliability Engineer at Red Hat">
+  <style>
+    .name { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 62px; font-weight: 700; letter-spacing: -1.5px; fill: #1b1b1b; }
+    .role { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 21px; font-weight: 400; fill: #5a5a5a; }
+    .meta { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; letter-spacing: 2px; fill: #8a8a8a; text-transform: uppercase; }
+    .rule { stroke: #d8d8d8; stroke-width: 2; }
+    .accent { stroke: #e03c31; stroke-width: 6; }
+    @media (prefers-color-scheme: dark) {
+      .name { fill: #f2f2f2; }
+      .role { fill: #a9a9a9; }
+      .meta { fill: #8f8f8f; }
+      .rule { stroke: #303030; }
+      .accent { stroke: #ff6b5e; }
+    }
+  </style>
+
+  <line class="accent" x1="0" y1="34" x2="72" y2="34" />
+  <text class="meta" x="88" y="40">site reliability engineering</text>
+
+  <text class="name" x="0" y="120">Rael Garcia</text>
+
+  <line class="rule" x1="0" y1="150" x2="1000" y2="150" />
+
+  <text class="role" x="0" y="192">Azure Red Hat OpenShift Hosted Control Planes</text>
+  <text class="role" x="0" y="222">OpenShift CI and E2E · Kubernetes docs (es) · Barcelona</text>
+</svg>
