@@ -24,5 +24,5 @@ verification and cleanup.
 
 **Elsewhere**
 
-[rael.io](https://rael.io) | [talks](https://github.com/raelga/kubernetes-talks) ·
+[rael.io](https://rael.io) | [talks](https://github.com/raelga/kubernetes-talks)
 [Cloud Native Barcelona](https://cloudnative.barcelona)
