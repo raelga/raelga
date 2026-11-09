@@ -10,9 +10,9 @@ I work on Azure Red Hat OpenShift Hosted Control Planes, the managed OpenShift s
 - [openshift/release](https://github.com/openshift/release/tree/main/ci-operator/jobs/Azure/ARO-HCP): OWNERS for the ARO HCP and ARO-Tools ci-operator config and jobs, the Prow config behind them, and the `aro-hcp/hypershift-e2e` step registry.
 - [kubernetes/website](https://github.com/kubernetes/website/blob/main/OWNERS_ALIASES): owner and reviewer for the Spanish localization.
 
-### Teaching material
+### Teaching
 
-The labs I teach with are public: containers, Kubernetes and Terraform, each written with prerequisites, execution, verification and cleanup. [Course labs](https://github.com/raelga/kubernetes-talks/tree/main/course)
+I teach in the postgraduate programme [Platform Engineering y DevOps con Kubernetes](https://upcschool.upc.edu/esp/estudis/formacio/curs/305300/platform-engineering-devops-kubernetes/) at UPC School, 12 ECTS, live online. The labs I write for it are public: containers, Kubernetes and Terraform, each with prerequisites, execution, verification and cleanup. [Course labs](https://github.com/raelga/kubernetes-talks/tree/main/course)
 
 ### Elsewhere
 
