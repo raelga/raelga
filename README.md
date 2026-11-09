@@ -10,18 +10,10 @@
 
 I work on Azure Red Hat OpenShift Hosted Control Planes, the managed OpenShift service on Azure where the control plane runs inside the customer's subscription. My day is CI, E2E coverage and service lifecycle: the parts that decide whether a control plane can be released on a schedule.
 
-### By the numbers, last 12 months
-
-| | |
-|:--|:--|
-| **612** | pull requests merged into repositories I don't own |
-| **475** | of them in [Azure/ARO-HCP](https://github.com/Azure/ARO-HCP), out of 3,259 repo merges |
-| **47 / 39** | presubmits / periodics I own for ARO HCP in [openshift/release](https://github.com/openshift/release/tree/main/ci-operator/jobs/Azure/ARO-HCP) |
-
 ### Upstream roles
 
 - [Azure/ARO-HCP](https://github.com/Azure/ARO-HCP/blob/main/OWNERS_ALIASES): approver for service lifecycle, plus `acm/`, `config/` and `observability/`.
-- [openshift/release](https://github.com/openshift/release/tree/main/ci-operator/jobs/Azure/ARO-HCP): OWNERS for the ARO HCP and ARO-Tools ci-operator config and jobs, the Prow config for those jobs, and the `aro-hcp/hypershift-e2e` step registry.
+- [openshift/release](https://github.com/openshift/release/tree/main/ci-operator/jobs/Azure/ARO-HCP): OWNERS for the ARO HCP and ARO-Tools ci-operator config and jobs, the Prow config behind them, and the `aro-hcp/hypershift-e2e` step registry.
 - [kubernetes/website](https://github.com/kubernetes/website/blob/main/OWNERS_ALIASES): owner and reviewer for the Spanish localization.
 
 ### Teaching
