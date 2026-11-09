@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Rael Garcia, site reliability engineer at Red Hat">
+  <style>
+    .ink   { fill: #111111; }
+    .red   { fill: #e03c31; }
+    .muted { fill: #6b6b6b; }
+    .rule  { stroke: #111111; stroke-width: 2; }
+    .grid  { stroke: #111111; stroke-width: 1; opacity: 0.06; }
+    .mono  { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 3px; font-size: 13px; }
+    .name  { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 120px; font-weight: 700; letter-spacing: -5px; }
+    .statement { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 21px; font-weight: 500; }
+    .idxnum { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; }
+    .idxname { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 700; }
+    .idxsub { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; letter-spacing: 1px; }
+    @media (prefers-color-scheme: dark) {
+      .ink   { fill: #f2f2f2; }
+      .red   { fill: #ff6b5e; }
+      .muted { fill: #9a9a9a; }
+      .rule  { stroke: #f2f2f2; }
+      .grid  { stroke: #f2f2f2; opacity: 0.08; }
+    }
+  </style>
+
+  <g class="grid">
+    <line x1="40" y1="0" x2="40" y2="420" /><line x1="133" y1="0" x2="133" y2="420" />
+    <line x1="226" y1="0" x2="226" y2="420" /><line x1="320" y1="0" x2="320" y2="420" />
+    <line x1="413" y1="0" x2="413" y2="420" /><line x1="506" y1="0" x2="506" y2="420" />
+    <line x1="600" y1="0" x2="600" y2="420" /><line x1="693" y1="0" x2="693" y2="420" />
+    <line x1="786" y1="0" x2="786" y2="420" /><line x1="880" y1="0" x2="880" y2="420" />
+    <line x1="973" y1="0" x2="973" y2="420" /><line x1="1066" y1="0" x2="1066" y2="420" />
+    <line x1="1160" y1="0" x2="1160" y2="420" />
+  </g>
+
+  <line class="rule" x1="40" y1="62" x2="1160" y2="62" />
+  <text class="mono muted" x="40" y="48">SITE RELIABILITY ENGINEERING</text>
+  <text class="mono muted" x="1160" y="48" text-anchor="end">BARCELONA · RED HAT</text>
+
+  <text class="name" x="40" y="238"><tspan class="ink">Rael </tspan><tspan class="red">Garcia</tspan></text>
+
+  <text class="statement ink" x="880" y="150">Control planes, CI gates</text>
+  <text class="statement ink" x="880" y="180">and release cadence for</text>
+  <text class="statement ink" x="880" y="210">OpenShift on Azure.</text>
+  <line class="red" x1="880" y1="232" x2="940" y2="232" stroke="#e03c31" stroke-width="5" />
+
+  <text class="idxnum muted" x="40"  y="300">01</text>
+  <text class="idxname ink"  x="40"  y="326">ARO HCP</text>
+  <text class="idxsub muted" x="40"  y="348">azure · openshift · approver</text>
+
+  <text class="idxnum muted" x="320" y="300">02</text>
+  <text class="idxname ink"  x="320" y="326">OpenShift CI</text>
+  <text class="idxsub muted" x="320" y="348">prow · ci-operator · e2e</text>
+
+  <text class="idxnum muted" x="600" y="300">03</text>
+  <text class="idxname ink"  x="600" y="326">Kubernetes docs</text>
+  <text class="idxsub muted" x="600" y="348">spanish · owner · reviewer</text>
+
+  <text class="idxnum muted" x="880" y="300">04</text>
+  <text class="idxname ink"  x="880" y="326">Teaching</text>
+  <text class="idxsub muted" x="880" y="348">containers · k8s · terraform</text>
+
+  <line class="rule" x1="40" y1="378" x2="1160" y2="378" />
+  <text class="mono muted" x="40" y="404">RAEL.IO</text>
+  <text class="mono muted" x="1160" y="404" text-anchor="end">GITHUB.COM/RAELGA</text>
+</svg>
